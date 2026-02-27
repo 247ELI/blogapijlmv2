@@ -1,4 +1,4 @@
-# BLog BackEnd API - Project Overview 
+# Blog BackEnd API - Project Overview 
 ## Project Goal
 
 Create a backend for Blog Application:
@@ -14,15 +14,15 @@ Create a backend for Blog Application:
     - Back end will be in .Net 9, ASP.NET Core, EF Core, SQL Server.
     - Front End will be done in Next JS with TypeScript (To be done by. Jacob) flowbite(tailwind). Deploy with TBA (Vercel or Azure)
 
-    ## Application Features 
+## Application Features 
 
-    ### user Capabilities 
+### user Capabilities 
 
     - Create an account 
     - Login 
     - Delete account
 
-    ### Blog Features 
+### Blog Features 
 
     - View all published blog posts
     - Filter blog posts
@@ -31,13 +31,13 @@ Create a backend for Blog Application:
     - Delete posts
     - Publish/ Unpublish posts
 
-    ### Pages (Frontend Connected to API)
+### Pages (Frontend Connected to API)
 
     - Create Account Page
     - Blog View post page of polished items
     - Dashboard page (this is the profile page will edit, delete, and publish anf unpublish our blog posts)  
 
-    - **Blog Page**
+- **Blog Page**
         - Display all published blog items 
 
     - **DashBoard**
