@@ -9,7 +9,7 @@ namespace blogapijlmv2.Services;
 
 public class UserService 
 {
-   
+
     internal bool AddUser(CreateAccountDTO userToAdd)
     {
         throw new NotImplementedException();

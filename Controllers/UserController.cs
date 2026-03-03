@@ -22,7 +22,7 @@ public class UserController : ControllerBase
     // Add user
     public bool AddUser(CreateAccountDTO UserToAdd)
     {
-        return _data.AddUser(UserToAdd)
+        return _data.AddUser(UserToAdd);
     }
 
 }
