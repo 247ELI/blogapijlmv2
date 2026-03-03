@@ -10,8 +10,8 @@ using blogapijlmv2.Services.Context;
 
 namespace blogapijlmv2.Migrations
 {
-    [DbContext(typeof(Context))]
-    [Migration("20260303064204_Initial")]
+    [DbContext(typeof(DataContext))]
+    [Migration("20260303174600_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
