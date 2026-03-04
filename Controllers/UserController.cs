@@ -20,6 +20,7 @@ public class UserController : ControllerBase
     }
     //Function to add our user type of CreateAccountDTO call UserTodadd this will return bool once our user is added 
     // Add user
+    [HttpPost("AddUser")]
     public bool AddUser(CreateAccountDTO UserToAdd)
     {
         return _data.AddUser(UserToAdd);
